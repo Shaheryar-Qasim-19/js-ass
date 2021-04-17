@@ -141,4 +141,65 @@ document.write("<br>");
 
 
 // ******************Question # 06 ****************************
+//a  &    c
 var C = 25, F = 77;
+
+//b
+C = (F - 32) * 5 / 9;
+document.write("Celcius = " + F + "Fo <br>" );
+
+//d
+F = (C * 9/5) +32;
+document.write("Faranheit = " + C + "Co");
+
+
+// ******************Question # 07 ****************************
+
+//a  Price of item 1
+var item1 = 650;
+
+//b  Price of item 2
+var item2 = 100;
+
+//c Ordered Quantity of item 1
+var quantity1 = 3;
+
+
+//d Ordered Quantity of item 1
+var quantity2 = 7;
+
+//e Shipping charges
+var shippingcharges = 100;
+
+document.write("<h1> Shopping Cart </h1>");
+document.write("Price of item 1 is " + item1);
+document.write("<br> Quantity of item 1 is " + quantity1);
+document.write("<br> Price of item 2 is " + item2);
+document.write("<br> Quantity of item 2 is " + quantity2);
+document.write("<br> Shipping Charges is " + shippingcharges);
+var resultant = (item1 * quantity1) + (item2 * quantity2) + shippingcharges;
+document.write("<br> The Cost of your order is " + resultant);
+
+
+// ******************Question # 08 ****************************
+var om = 804 , tm = 980 , per;
+per = om/tm;
+document.write("<h1> Mark Sheet </h1> <br> <br>");
+document.write("<br>Total Marks : " + tm);
+document.write("<br>Obtained Marks : " + om);
+document.write("<br>Percentage : " + per + "%");
+
+// ******************Question # 09 ****************************
+var dollars = 10, riyals = 25 , pk = 104.8, pks = 28;
+document.write("<h1> Currency in PKR </h1> <br> <br>");
+var conversion = (dollars*pk)+(riyals*pks);
+document.write(conversion);
+document.write("<br>");
+
+
+// ******************Question # 10 ****************************
+var num = 2;
+var equation = (((num + 5)*10)/2);
+document.write(equation);
+document.write("<br>");
+
