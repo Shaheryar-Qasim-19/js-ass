@@ -130,3 +130,107 @@ if (true){
 if("car" < "cat"){
     alert("car is smaller than cat");
     }
+
+
+
+// Question 06*****************************************************
+
+var totalMarks = 300;
+var obtainedMarks = +prompt("Enter your obtained marks",000);
+resultingPercentage = (obtainedMarks/totalMarks)*100;
+
+if(resultingPercentage>=80){
+    var grade = "A-one";
+    var remarks = "Excellent";
+}
+else if(resultingPercentage>=70){
+    var grade = "A";
+    var remarks = "Good";
+}
+else if(resultingPercentage>=60){
+    var grade = "B";
+    var remarks = "You need to improve";
+}else{
+    var grade = "Fail";
+    var remarks = "Sorry";
+}
+document.write("<h1>Mark Sheet</h1> <br><br><br>");
+document.write("Total Marks: " + totalMarks);
+document.write("<br>Marks Obtained: " + obtainedMarks);
+document.write("<br>Percentage: " + resultingPercentage + "%");
+document.write("<br>Grade: " + grade);
+document.write("<br>Remarks: " + remarks);
+
+
+// Question 07****************************************************
+
+
+
+
+// Question 08****************************************************
+
+var givenNumber = +prompt("Enter a Number");
+
+if(givenNumber/3){
+    document.write("<br>Yes the "+ givenNumber+" is divisible by 3");
+}
+else{
+    document.write("<br>nope the "+ givenNumber+" is divisible by 3");
+}
+
+
+// Question 09***************************************************
+var n1 = +prompt("Checking even or odd");
+
+if(n1%2==0){
+    document.write("it is even");
+}else{
+    document.write("it is odd");
+}
+
+
+// Question 10********************************************************
+
+var temp = +prompt("Enter a temperature");
+if(temp > 40){
+    document.write("It is too hot outside");
+}else if(temp > 30){
+    document.write("The weather today is normal");
+}else if(temp > 20){
+    document.write("Today weather is cool");
+}else if(temp > 10){
+    document.write("OMG! Today weather is so cool");
+}
+
+
+
+// Question 11**********************************************************
+
+var firstNum = +prompt("Enter a first number");
+var secondNum = +prompt("Enter a second number");
+var operator = prompt("Enter a operator");
+
+if(operator==="+"){
+    var res = firstNum + secondNum;
+    document.write("<br>The addition of "+firstNum+" & "+secondNum +" is :" + res);
+}
+else if(operator==="-"){
+    var res = firstNum - secondNum;
+    document.write("<br>The subtraction of "+firstNum+" & "+secondNum +" is :" + res);
+}
+else if(operator==="*"){
+    var res = firstNum * secondNum;
+    document.write("<br>The multiplication of "+firstNum+" & "+secondNum +" is :" + res);
+}
+else if(operator==="/"){
+    var res = firstNum / secondNum;
+    document.write("<br>The division of "+firstNum+" & "+secondNum +" is :" + res);
+}
+else if(operator==="%"){
+    var res = firstNum % secondNum;
+    document.write("<br>The modulos of "+firstNum+" & "+secondNum +" is :" + res);
+}
+else{
+    document.write("<br>The operator is invalid");
+
+}
