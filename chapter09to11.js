@@ -57,7 +57,7 @@ else{
     alert("Entered wrong color");
 }
 
-document.write("<table><tr><th>Single color</th><th>Message</th></tr> <tr><th>Red</th><td>Message</td></tr></table>")
+document.write("<table><tr><th>Single color</th><th>Message</th></tr> <tr><th>Red</th><td>Must Stop</td></tr> <tr><th>Yellow</th><td>Ready to Move</td></tr> <tr><th>Green</th><td>Move now</td></tr></table>")
 
 
 // Question 04*************************************************************************
@@ -164,7 +164,18 @@ document.write("<br>Remarks: " + remarks);
 
 // Question 07****************************************************
 
-
+var secretNumber = +prompt("Guess the sectret number");
+var secNumberConstant = 2;
+// a..........
+if(secretNumber === secNumberConstant){
+    document.write("Guesing Gameof sectret number <br> Bingo! Correct answer");
+}
+else if(secretNumber === secNumberConstant+1){
+    document.write("Guesing Gameof sectret number <br> Close enough to the correct answer");
+}
+else{
+    document.write("Guesing Gameof sectret number <br> Try again");
+}
 
 
 // Question 08****************************************************
