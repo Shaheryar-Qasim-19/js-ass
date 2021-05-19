@@ -95,7 +95,7 @@ document.write("<h2>e</h1>");
 for(var j = 0; j < 5 ; j++)
 {
     
-    for(var i = 1; i <= x ; i++)
+    for(var i = 1; i <= j ; i++)
     {
         
         document.writeln("*");
